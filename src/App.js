@@ -11,6 +11,7 @@ import FavoritesPage from "./pages/Favorites";
 import Layout from "./components/layout/Layout";
 import MainNavigation from "./components/layout/MainNavigation";
 import Dashboard from "./pages/Dashboard";
+import Sidebar from "./pages/Sidebar";
 
 function App() {
 
@@ -37,7 +38,9 @@ const [state, setState] = useState({
   });
 
   return (
-      <><div className="App">
+      <>
+      
+      {/* <div className="App">
       <h1>
         Dashboard <i class="fas fa-user"></i>{" "}
       </h1>
@@ -57,12 +60,15 @@ const [state, setState] = useState({
             width="450" />
         </div>
       </div>
-    </div><Router>
+    </div> */}
+    
+    <Router>
         <div>
           <MainNavigation />
           <Route path="/" exact>
-            <AllMeetupsPage />
-            {/* <Dashboard /> */}
+            {/* <AllMeetupsPage /> */}
+            <Dashboard />
+            <Sidebar /> 
           </Route>
           <Route path="/favorites">
             <FavoritesPage />
