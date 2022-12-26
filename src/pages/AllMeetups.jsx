@@ -41,10 +41,19 @@ function AllMeetupsPage() {
     }
 
     return (
+      <div style={{marginLeft: '200px'}}>
       <section>
-        <h1>All Meetups</h1>
+        <h2>Payment Accounts</h2>
+        <table style={{ border: '1px solid black' }}>
+      <tr>
+        <td style={{ border: '1px solid black' }}>Account Name</td>
+        <td style={{ border: '1px solid black' }}>Number</td>
+        <td style={{ border: '1px solid black' }}>Balance</td>
+      </tr>
+        </table>
         <MeetupList meetups={loadedMeetups} />
       </section>
+      </div>
     );
   }
 }

@@ -13,7 +13,7 @@ function MainNavigation() {
       <nav>
         <ul>
           <li>
-            <Link to="/">Dashboard</Link>
+            <Link to="/"></Link>
           </li>
           <li>
             <Link to="/newmeetup">Insights</Link>
@@ -25,7 +25,7 @@ function MainNavigation() {
             <Link to="/contact">Contact</Link>
           </li>
           <li>
-            <Link to="/favorites">
+            <Link to="/actions">
               Actions
               <span className={classes.badge}>
                 {favoritesCtx.totalFavorites}

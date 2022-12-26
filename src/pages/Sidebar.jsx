@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import "./Sidebar.css";
 
 const Sidebar = () => {
@@ -6,11 +7,17 @@ const Sidebar = () => {
     <aside className="sidebar">
       <nav>
         <ul>
-          <li><a href="#">Dashboard</a></li>
-          <li><a href="#">Admin</a></li>
-          <li><a href="#">Accounts</a></li>
+          {/* <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Accounts</a></li>
           <li><a href="#">Payments</a></li>
           <li><a href="#">Invoice</a></li>
+  <li><a href="#">Admin</a></li> */}
+          <li><Link to="/dashboard">Dashboard</Link></li>
+          <li><Link to="/accounts">Accounts</Link></li>
+          <li><Link to="/Payments">Payments</Link></li>
+          <li><Link to="/Invoices">Invoices</Link></li>
+          <li><Link to="/Admin">Admin</Link></li>
+
                   </ul>
       </nav>
     </aside>

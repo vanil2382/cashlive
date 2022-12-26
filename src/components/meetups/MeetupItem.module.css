@@ -16,7 +16,7 @@
 }
 
 .content {
-    text-align: center;
+    text-align: start;
     padding: 1rem;
 }
 
@@ -42,5 +42,5 @@
 
 .actions button:hover,
 .actions button:active {
-    background-color: #ffe2ed;
+    background-color: #ffffff;
 }

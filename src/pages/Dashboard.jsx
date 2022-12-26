@@ -33,14 +33,15 @@ const [state, setState] = useState({
       <h1>
         Dashboard Monthly <i class="fas fa-user"></i>{" "}
       </h1>
+       <div style={{marginLeft: '200px'}}>
       <div className="row">
         <div className="col-4">
-          <Chart
+           <Chart
             options={state.options}
             series={state.series}
             type="bar"
             width="450" />
-        </div>
+        </div> 
         <div className="col-4">
           <Chart
             options={state.options}
@@ -56,16 +57,16 @@ const [state, setState] = useState({
             width="450"
           />
         </div>
-        <div className="col-4">
-          <Chart
+                <div className="col-4">
+              <Chart
             options={state.options}
             series={state.series}
             type="radar"
             width="450"
           />
         </div>
-        <div className="col-4">
-          <Chart
+                <div className="col-4">
+              <Chart
             options={state.options}
             series={state.series}
             type="histogram"
@@ -81,9 +82,8 @@ const [state, setState] = useState({
           />
         </div>
       </div>
-    </div>
-    
-    );
+    </div> </div>
+      );
   }
 
 export default Dashboard;
