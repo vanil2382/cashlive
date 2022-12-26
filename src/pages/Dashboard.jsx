@@ -1,18 +1,9 @@
-// import { Route, Switch } from "react-router-dom";
 
-// import { Route } from "react-router-dom";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import React, { useState } from "react";
 import Chart from "react-apexcharts";
-import "./App.css";
-import AllMeetupsPage from "./pages/AllMeetups";
-import NewMeetupPage from "./pages/NewMeetup";
-import FavoritesPage from "./pages/Favorites";
-import Layout from "./components/layout/Layout";
-import MainNavigation from "./components/layout/MainNavigation";
-import Dashboard from "./pages/Dashboard";
+import "./Dashboard.css";
 
-function App() {
+function Dashboard() {
 
 const [state, setState] = useState({
     options: {
@@ -37,7 +28,7 @@ const [state, setState] = useState({
   });
 
   return (
-      <><div className="App">
+        <div className="Dashboard">
       <h1>
         Dashboard <i class="fas fa-user"></i>{" "}
       </h1>
@@ -57,22 +48,9 @@ const [state, setState] = useState({
             width="450" />
         </div>
       </div>
-    </div><Router>
-        <div>
-          <MainNavigation />
-          <Route path="/" exact>
-            <AllMeetupsPage />
-            {/* <Dashboard /> */}
-          </Route>
-          <Route path="/favorites">
-            <FavoritesPage />
-          </Route>
-          <Route path="/newmeetup">
-            <NewMeetupPage />
-          </Route>
-        </div>
-      </Router></>
-  );
-}
+    </div>
+    
+    );
+  }
 
-export default App;
+export default Dashboard;
