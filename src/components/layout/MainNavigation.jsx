@@ -28,7 +28,7 @@ function MainNavigation() {
         <ul>
           <li>
               <select onChange={popupWindow}>
-              <option value="bnkbaas">Select</option>
+              <option value="bnkbaas">Select Subsidiary</option>
               <option value="bnkbaas">+ BNK BAAS</option>
               <option value="bnkpaas">+ BNK PAAS</option>
               <option value="bnkcaas">+ BNK CAAS</option>
