@@ -5,13 +5,14 @@
     align-items: center;
     justify-content: left;
     background-color: #088a42;
-    padding: 0 10%;
+    padding: 0% 5%;
 }
 
 .logo {
-    font-size: 2rem;
+    font-size: 2.0rem;
     color: white;
     font-weight: bold;
+    align-items: left;
 }
 
 .header ul {

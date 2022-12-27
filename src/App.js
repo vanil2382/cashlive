@@ -21,13 +21,8 @@ import AboutPage from "./pages/About";
 function App() {
 
   return (
-    <><div>
-      <select>
-        <option value="fruit">Fruit</option>
-        <option value="vegetable">Vegetable</option>
-        <option value="meat">Meat</option>
-      </select>
-    </div><Router>
+  
+    <Router>
         <div>
           <MainNavigation />
           <Sidebar />
@@ -73,7 +68,7 @@ function App() {
             <Sidebar />
           </Route>
         </div>
-      </Router></>
+      </Router>
   );
 }
 
