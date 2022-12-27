@@ -16,6 +16,7 @@ import ContactPage from "./pages/Contact";
 import ActionPage from "./pages/Action";
 import SupportPage from "./pages/Support";
 import AccountsPage from "./pages/Accounts";
+import AboutPage from "./pages/About";
 
 function App() {
 
@@ -30,8 +31,8 @@ function App() {
             <Sidebar /> 
           </Route>
           <Route path="/accounts" exact>
-            <AllMeetupsPage />
-            {/* <AccountsPage /> */}
+            {/* <AllMeetupsPage /> */}
+            <AccountsPage />
             <Sidebar /> 
           </Route>
 
@@ -41,6 +42,10 @@ function App() {
           </Route>
           <Route path="/support">
             <SupportPage />
+            <Sidebar /> 
+          </Route>
+          <Route path="/about">
+            <AboutPage />
             <Sidebar /> 
           </Route>
           <Route path="/contact">

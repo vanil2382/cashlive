@@ -31,7 +31,7 @@ const [state, setState] = useState({
   return (
         <div className="Dashboard">
       <h1>
-        Dashboard Monthly <i class="fas fa-user"></i>{" "}
+        BNK Group : Dashboard Monthly <i class="fas fa-user"></i>{" "}
       </h1>
        <div style={{marginLeft: '200px'}}>
       <div className="row">

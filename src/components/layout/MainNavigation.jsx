@@ -9,7 +9,7 @@ function MainNavigation() {
 
   return (
     <header className={classes.header}>
-      <div className={classes.logo}>CashLive Demo</div>
+      <div className={classes.logo}>BNK Group</div>
       <nav>
         <ul>
           <li>
@@ -32,9 +32,12 @@ function MainNavigation() {
               </span>
             </Link>
           </li>
-          <li>
-          <p style={{ fontSize: '20px', color: 'white' }}> loggedin as Anil Vydyam</p>
+         <li>
+          <p style={{ fontSize: '15px', color: 'white', margin: '2rem'}}> loggedin as Anil Vydyam</p>
           </li>
+          <li>
+          <p style={{ fontSize: '15px', color: 'white', margin: '2rem'}}> CashLive Demo</p>
+  </li>
         </ul>
       </nav>
     </header>
