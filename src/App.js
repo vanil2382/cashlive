@@ -21,47 +21,59 @@ import AboutPage from "./pages/About";
 function App() {
 
   return (
-    <Router>
+    <><div>
+      <select>
+        <option value="fruit">Fruit</option>
+        <option value="vegetable">Vegetable</option>
+        <option value="meat">Meat</option>
+      </select>
+    </div><Router>
         <div>
           <MainNavigation />
           <Sidebar />
+
+          <Route path="/" exact>
+            {/* <AllMeetupsPage /> */}
+            <Dashboard />
+            <Sidebar />
+          </Route>
           <Route path="/dashboard" exact>
             {/* <AllMeetupsPage /> */}
             <Dashboard />
-            <Sidebar /> 
+            <Sidebar />
           </Route>
           <Route path="/accounts" exact>
             {/* <AllMeetupsPage /> */}
             <AccountsPage />
-            <Sidebar /> 
+            <Sidebar />
           </Route>
 
           <Route path="/favorites">
             <FavoritesPage />
-            <Sidebar /> 
+            <Sidebar />
           </Route>
           <Route path="/support">
             <SupportPage />
-            <Sidebar /> 
+            <Sidebar />
           </Route>
           <Route path="/about">
             <AboutPage />
-            <Sidebar /> 
+            <Sidebar />
           </Route>
           <Route path="/contact">
             <ContactPage />
-            <Sidebar /> 
+            <Sidebar />
           </Route>
           <Route path="/actions">
             <ActionPage />
-            <Sidebar /> 
+            <Sidebar />
           </Route>
           <Route path="/newmeetup">
             <NewMeetupPage />
-            <Sidebar /> 
+            <Sidebar />
           </Route>
         </div>
-      </Router>
+      </Router></>
   );
 }
 
