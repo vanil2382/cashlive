@@ -1,6 +1,8 @@
 import { useHistory } from "react-router-dom";
 
 import NewMeetupForm from "../components/meetups/NewMeetupForm";
+import CommentForm from "../components/meetups/CommentForm";
+import AllMeetupsPage from "./AllMeetups";
 
 function NewMeetupPage() {
   // return <div> My New Meetup Page</div>;
@@ -28,8 +30,9 @@ function NewMeetupPage() {
 
     return (
       <section>
-        <h1>Add New Meetup</h1>
-        <NewMeetupForm onAddMeetup={addMeetupHandler} />
+        <h1></h1>
+        <CommentForm onAddMeetup={addMeetupHandler} />
+        <AllMeetupsPage />
       </section>
     );
   }

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import "./Sidebar.css";
+import CommentBox from './CommentBox';
 
 const Sidebar = () => {
   return (
@@ -18,8 +19,8 @@ const Sidebar = () => {
           <li><Link to="/Invoices">Invoices</Link></li>
           <li><Link to="/Admin">Admin</Link></li>
           <li><Link to="/About">About</Link></li>
-
-                  </ul>
+          <li><Link to="/CommentBox">Leave comments</Link></li>
+                 </ul>
       </nav>
     </aside>
   );

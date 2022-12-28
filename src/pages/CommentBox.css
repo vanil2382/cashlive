@@ -1,0 +1,41 @@
+
+* {
+  box-sizing: border-box;
+}
+
+  label {
+    margin-top: 10px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    margin-left: 500px;
+    text-align: right;
+  }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  background-color: #fcf3f6;
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 200px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #2c292b;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #2c292b;
+}
+
+h3 {
+  font-size: 1.0rem;
+  color: #2c292b;
+  text-align: left;
+  margin-left: 200px;
+  margin-top: 10px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+}

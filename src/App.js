@@ -20,6 +20,7 @@ import AboutPage from "./pages/About";
 import AdminPage from "./pages/Admin";
 import InvoicesPage from "./pages/Invoices";
 import PaymentsPage from "./pages/Payments";
+import CommentBox from "./pages/CommentBox";
 
 
 function App() {
@@ -52,7 +53,8 @@ function App() {
             <Sidebar />
           </Route>
           <Route path="/support">
-            <SupportPage />
+          <AllMeetupsPage />
+           {/* <SupportPage /> */}
             <Sidebar />
           </Route>
           <Route path="/about">
@@ -81,6 +83,10 @@ function App() {
           </Route>
           <Route path="/payments">
             <PaymentsPage />
+            <Sidebar />
+          </Route>
+          <Route path="/commentbox">
+          <NewMeetupPage />
             <Sidebar />
           </Route>
         </div>

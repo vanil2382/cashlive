@@ -41,9 +41,8 @@ function AllMeetupsPage() {
     }
 
     return (
-      <div style={{marginLeft: '200px'}}>
+      <div>
       <section>
-        <h2>Payment Accounts</h2>
         <MeetupList meetups={loadedMeetups} />
       </section>
       </div>

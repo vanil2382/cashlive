@@ -5,6 +5,7 @@ import Modal from '../../pages/Modal';
 import classes from "./MainNavigation.module.css";
 import FavoritesContext from "../../store/favorites-context";
 
+
 const popupWindow = () => {
   console.log();
  // window.open('http://www.example.com', '_blank', 'width=400,height=400,location=no,toolbar=no');
@@ -61,7 +62,7 @@ function MainNavigation() {
           </li>
           <li>
             <p style={{ fontSize: '15px', color: 'white', margin: '2rem' }}> CashLive Demo</p>
-          </li>
+                     </li>
         </ul>
       </nav>
     </header>

@@ -43,3 +43,11 @@
     background-color: #a50e48;
     border-color: #a50e48;
 }
+
+lb {
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    text-align: left;
+  }
