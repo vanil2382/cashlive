@@ -41,7 +41,7 @@ function MainNavigation() {
             <Link to="/"></Link>
           </li>
           <li>
-            <Link to="/trends">Trends</Link>
+            <Link to="/trends">Cash Forecast</Link>
           </li>
           <li>
             <Link to="/support">Reports</Link>

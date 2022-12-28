@@ -6,7 +6,7 @@ function TrendsPage() {
   return (
         <div className="Dashboard">
       <h2>
-      !! Trends Page - Work in progress !! <i class="fas fa-user"></i>{" "}
+      !! Cash Forecast Page - Work in progress. Have to use AI and ML!! <i class="fas fa-user"></i>{" "}
       </h2>
       </div>
 
