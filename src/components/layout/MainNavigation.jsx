@@ -41,7 +41,7 @@ function MainNavigation() {
             <Link to="/"></Link>
           </li>
           <li>
-            <Link to="/trends">Cash Forecast</Link>
+            <Link to="/trends">CashForecast</Link>
           </li>
           <li>
             <Link to="/support">Reports</Link>
@@ -61,7 +61,7 @@ function MainNavigation() {
             <p style={{ fontSize: '15px', color: 'white', margin: '2rem' }}> loggedin as Anil Vydyam</p>
           </li>
           <li>
-            <p style={{ fontSize: '15px', color: 'white', margin: '2rem' }}> CashLive Demo</p>
+            <p style={{ fontSize: '15px', color: 'red', margin: '2rem' }}> Prototype</p>
                      </li>
         </ul>
       </nav>
