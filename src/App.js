@@ -13,10 +13,14 @@ import MainNavigation from "./components/layout/MainNavigation";
 import Dashboard from "./pages/Dashboard";
 import Sidebar from "./pages/Sidebar";
 import ContactPage from "./pages/Contact";
-import ActionPage from "./pages/Action";
+import ActionPage from "./pages/Actions";
 import SupportPage from "./pages/Support";
 import AccountsPage from "./pages/Accounts";
 import AboutPage from "./pages/About";
+import AdminPage from "./pages/Admin";
+import InvoicesPage from "./pages/Invoices";
+import PaymentsPage from "./pages/Payments";
+
 
 function App() {
 
@@ -65,6 +69,18 @@ function App() {
           </Route>
           <Route path="/newmeetup">
             <NewMeetupPage />
+            <Sidebar />
+          </Route>
+          <Route path="/admin">
+            <AdminPage />
+            <Sidebar />
+          </Route>
+          <Route path="/invoices">
+            <InvoicesPage />
+            <Sidebar />
+          </Route>
+          <Route path="/payments">
+            <PaymentsPage />
             <Sidebar />
           </Route>
         </div>

@@ -5,6 +5,8 @@
   .Dashboard-logo {
     height: 40vmin;
     pointer-events: none;
+    display: flex;
+    justify-content: flex-end;
   }
   
   @media (prefers-reduced-motion: no-preference) {

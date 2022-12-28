@@ -23,7 +23,7 @@ function MainNavigation() {
   
   return (
 <header className={classes.header}>
-     <div className={classes.logo}>BNK Group</div>
+     <div className={classes.logo}>BNK*Group</div>
       <nav>
         <ul>
           <li>
@@ -43,7 +43,7 @@ function MainNavigation() {
             <Link to="/newmeetup">Insights</Link>
           </li>
           <li>
-            <Link to="/support">Support</Link>
+            <Link to="/support">Reports</Link>
           </li>
           <li>
             <Link to="/contact">Contact</Link>

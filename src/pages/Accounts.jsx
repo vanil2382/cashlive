@@ -24,7 +24,7 @@ function AccountsPage() {
 
   return (
     <div className="App">
-      <h1>Payament Accounts</h1>
+      <h2>Payment Virtual Corp Accounts</h2>
       <Table data={dataTable} column={column} />
     </div>
   );
