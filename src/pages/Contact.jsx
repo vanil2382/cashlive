@@ -5,9 +5,9 @@ function ContactPage() {
 
   return (
         <div className="Dashboard">
-      <h1>
-        Work in progress <i class="fas fa-user"></i>{" "}
-      </h1>
+<h2>
+      !! Contact Page - Work in progress !! <i class="fas fa-user"></i>{" "}
+      </h2>
       </div>
 
       );

@@ -1,14 +1,14 @@
 
 import "./Dashboard.css";
-
+import "./About.css"
 function ActionPage() {
 
   return (
-        <div className="Dashboard">
-      <h2>
-      !! Actions Page - Work in progress !! <i class="fas fa-user"></i>{" "}
-      </h2>
-      </div>
+        <div>
+      <p>
+      !! Actions Page - Work in progress !! <br></br>
+       Role based - Should display the count of actions in the badge and list the actions below with a hyper link to the individual actions.</p>
+            </div>
 
       );
   }
