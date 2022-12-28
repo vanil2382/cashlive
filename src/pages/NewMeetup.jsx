@@ -22,8 +22,9 @@ function NewMeetupPage() {
               },
             }
           ).then(() => {
-            history.replace("/");
-          });
+            window.location.reload();
+          //  history.replace("/CommentBox");
+                     });
         }
       }
     }

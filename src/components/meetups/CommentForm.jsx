@@ -23,7 +23,7 @@ function NewMeetupForm(props) {
     <Card>
       <form className={classes.form} onSubmit={submitHandler}>
         <p><div className={classes.control}>
-          <label htmlFor="description">Enter your comments - anonymous</label>
+          <label htmlFor="description">Leave your comments below (will be added to the end of the list) </label>
           <textarea
             id="description"
             required

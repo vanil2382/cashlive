@@ -5,11 +5,9 @@ import "./CommentBox.css"
 function CommentBox() {
   const [comments, setComments] = useState([]);
   const [newComment, setNewComment] = useState('');
-  const [text, setText] = useState('');
 
   function handleChange(event) {
     setNewComment(event.target.value);
-    setText(event.target.value);
   }
 
   function handleSubmit(event) {

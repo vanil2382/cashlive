@@ -41,7 +41,7 @@ function MainNavigation() {
             <Link to="/"></Link>
           </li>
           <li>
-            <Link to="/newmeetup">Insights</Link>
+            <Link to="/trends">Trends</Link>
           </li>
           <li>
             <Link to="/support">Reports</Link>
