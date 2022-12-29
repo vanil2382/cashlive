@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cashlive/static/css/main.8e846db8.css",
+    "main.js": "/cashlive/static/js/main.2571e879.js",
+    "index.html": "/cashlive/index.html",
+    "main.8e846db8.css.map": "/cashlive/static/css/main.8e846db8.css.map",
+    "main.2571e879.js.map": "/cashlive/static/js/main.2571e879.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e846db8.css",
+    "static/js/main.2571e879.js"
+  ]
+}
