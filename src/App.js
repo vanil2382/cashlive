@@ -22,7 +22,9 @@ import InvoicesPage from "./pages/Invoices";
 import PaymentsPage from "./pages/Payments";
 import CommentBox from "./pages/CommentBox";
 import TrendsPage from "./pages/Trends";
+import ReactGA from 'react-ga';
 
+ReactGA.initialize('UA-253115476-2');
 
 function App() {
 
